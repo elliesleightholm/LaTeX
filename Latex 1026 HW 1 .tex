@@ -1,0 +1,175 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{legalpaper, portrait, margin=0.75in}
+
+
+\begin{document}
+\large{\textbf{Question 4 - Homework 1 - Sets, Series and Sequences}
+\vspace{5 mm}
+
+Let A $= \{ \dfrac{n}{m} : n$ $\in$ $\mathbb{N}$, $m$ $\in$ $\mathbb{N}$, $m > n \}.$
+
+\vspace{5mm}
+
+(a) Prove that inf $A = 0$
+\vspace{5mm}
+
+\textbf{Solution:}
+
+\vspace{5mm}
+
+To show that $0$ is a infimum of $A$, we must prove the following:
+
+\vspace{2mm}
+
+(i) That $0$ is a lower bound in $A$ such that $\forall x \in A, x \geqslant 0$.
+
+\vspace{2mm}
+
+(ii) That for all $b$, with $b > 0$, b is not a lower bound such that $\forall b, b > 0, \exists x \in A, b > x$.
+
+\vspace{4mm}
+
+So, for (i):
+
+\vspace{2mm}
+
+Take $n = 1$ and $m \rightarrow \infty$ since $m > n$, then, $\dfrac{n}{m} \rightarrow 0$ which is the lowest possible value for 
+
+$A$.
+
+\vspace{2mm}
+
+Taking the maximum value of as $n \rightarrow \infty$, and $m = n+1$, $\dfrac{m}{n} \rightarrow 1$.
+
+\vspace{2mm}
+
+So, A takes the values $(0, 1)$. Hence, 0 is always less than these values so condition (i) is 
+
+\vspace{2mm}
+
+satisfied and 0 is a lower bound. 
+
+\vspace{5mm}
+
+For condition (ii):
+
+\vspace{2mm}
+
+Let $\epsilon > 0$ be given. By the Archimedean Property, we can find an $n$ $\in$ $\mathbb{N}$, such that 
+
+\vspace{2mm}
+
+$\dfrac{1}{n} < \epsilon$. As $m > n$, for all $n > 0$, we find that:
+
+ \begin{align*}
+\dfrac{1}{m} < \dfrac{1}{n} < \epsilon \implies \dfrac{1}{m} < \epsilon
+\end{align*}
+
+\vspace{2mm}
+
+We know that when $n = 1$, $\dfrac{n}{m} = \dfrac{1}{m}$, so $\dfrac{1}{m} \in A$. So,
+\begin{align*}
+0 + \epsilon < x,\hspace{2mm} \text{for} \hspace{2mm} x \in A
+\end{align*}
+
+\vspace{2mm}
+
+Thus, inf $A = 0$ as both condition (i) and (ii) are satisfied. 
+
+\vspace{6mm} 
+
+(b) Sup $A = 1$
+\vspace{5mm}
+
+\textbf{Solution:}
+
+\vspace{5mm}
+
+To show that $1$ is a supremum of $A$, we must prove the following:
+
+\vspace{2mm}
+
+(i) That $1$ is an upper bound in $A$ such that $\forall x \in A, x \leqslant 1$.
+
+\vspace{2mm}
+
+(ii) That for all $b$, with $b < 1$, b is not an upper bound such that $\forall b, b < 1, \exists x \in A, b < x$.
+
+\vspace{2mm}
+
+So, for (i):
+
+\vspace{2mm}
+
+Take $n = 1$ and $m \rightarrow \infty$ since $m > n$, then, $\dfrac{n}{m} \rightarrow 0$ which is the lowest possible value for 
+
+$A$.
+
+\vspace{2mm}
+
+Taking the maximum value of as $n \rightarrow \infty$, and $m = n+1$, $\dfrac{m}{n} \rightarrow 1$
+
+\vspace{2mm}
+
+So, we can conclude that A takes the values $(0, 1)$. Hence, 1 is always greater than these 
+
+\vspace{2mm}
+
+values, so condition (i) is satisfied and 1 is an upper bound. 
+
+\vspace{5mm}
+
+\newpage
+
+For condition (ii):
+
+\vspace{2mm}
+
+Let $\epsilon >0$ be given. By the Archimedean Property, we can find an $n$ $\in$ $\mathbb{N}$, such that 
+
+\vspace{2mm}
+
+$\dfrac{1}{n} < \epsilon$. As $m > n$, for all $n > 0$, we find that:
+\begin{align*}
+\dfrac{1}{m} < \dfrac{1}{n} < \epsilon \implies - \epsilon < - \dfrac{1}{m}
+\end{align*}
+
+\vspace{2mm}
+
+Adding $1$ to both sides, we get:
+\begin{align*}
+1 - \epsilon < 1 - \dfrac{1}{m}
+\end{align*}
+
+\vspace{2mm}
+
+Then, when $m = n + 1$ because $m > n$, we get $\dfrac{n}{m} = 1 - \dfrac{1}{m}$, so $1 - \dfrac{1}{m} \in A$. Then, 
+
+\begin{align*}
+1 - \epsilon < x \hspace{2mm} \text{for} \hspace{2mm} x \in A
+\end{align*}
+
+\vspace{2mm}
+
+Thus, sup $A = 1$ as both condition (i) and (ii) are satisfied. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
